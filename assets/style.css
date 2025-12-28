@@ -12,4 +12,11 @@ h1, h2 { line-height: 1.2; }
 .small { color: #555; font-size: 0.95rem; }
 footer { border-top: 1px solid #ddd; }
 footer .wrap { max-width: var(--max); margin: 0 auto; padding: 14px 16px; color: #666; font-size: 0.9rem; }
-
+.hero-banner{
+  width: 100%;
+  max-height: 260px;   /* adjust */
+  object-fit: cover;   /* crops nicely */
+  display: block;
+  border-radius: 14px; /* optional, matches card vibe */
+  margin: 0 0 1rem 0;
+}

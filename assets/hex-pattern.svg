@@ -1,0 +1,15 @@
+<!-- assets/hex-pattern.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="31.1769" viewBox="0 0 54 31.1769">
+  <g fill="none" stroke="#111" stroke-width="1.5" stroke-linejoin="miter">
+    <!-- flat-top hexagon, side s=18, h=sqrt(3)*s ≈ 31.1769 -->
+
+    <!-- Hex centered at (18, 15.58845) -->
+    <path d="M 9,0 27,0 36,15.58845 27,31.1769 9,31.1769 0,15.58845 Z"/>
+
+    <!-- Neighbor column (shifted), two copies to make tiling seamless -->
+    <!-- centered at (45, 0) -->
+    <path d="M 36,-15.58845 54,-15.58845 63,0 54,15.58845 36,15.58845 27,0 Z"/>
+    <!-- centered at (45, 31.1769) -->
+    <path d="M 36,15.58845 54,15.58845 63,31.1769 54,46.76535 36,46.76535 27,31.1769 Z"/>
+  </g>
+</svg>
